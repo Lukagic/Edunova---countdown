@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    background-color: black;
+    color: white;
+}
+
+h2 {
+    font-size: 5rem;
+    font-weight: bold;
+    padding: 3rem;
+}
+
+.coming-soon {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 700px;
+    margin: 0 auto;
+    padding: 100px;
+
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)),
+        url(images/tech.jpg);
+}
+
+.mainWrap {
+    text-align: center;
+}
+
+.mainWrap h2 {
+    font-size: 24px;
+    white-space: nowrap;
+    color: rgb(72, 179, 214);
+    text-transform: uppercase;
+    padding: 24px;
+    margin-top: 20px;
+}
+
+.mainWrap h1 {
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    font-size: 28px;
+}
+
+.countdown {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.day,
+.hour,
+.minute,
+.second {
+    font-size: 3rem;
+}
+
+.waiting {
+    height: 50vh;
+}
+
+.container {
+    border: 2px solid rgb(72, 179, 214);
+    padding: 20px;
+    margin-right: 10px;
+}
+
+.container h4 {
+    text-transform: lowercase;
+    font-weight: 200;
+    color: rgb(72, 179, 214);
+}
